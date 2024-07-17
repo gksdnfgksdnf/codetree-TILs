@@ -6,7 +6,7 @@ int main() {
     cin>>a;
     if(a>=1.0f)
         cout<<"High";
-    else if(a>0.5f)
+    else if(a>=0.5f)
         cout<<"Middle";
     else
         cout<<"Low";
