@@ -8,5 +8,5 @@ int main() {
     cin>>a>>b;
     cout<<a+b<<" ";
     cout.precision(1);
-    cout<<<<(a+b)/2;
+    cout<<(a+b)/2;
 }
