@@ -11,7 +11,7 @@ int main() {
     else if(a=='B')
         cout<<"Good";
     else if(a=='C')
-        cout<<"Ysyakkt";
+        cout<<"Usually";
     else if(a=='D')
         cout<<"Effort";
     else
