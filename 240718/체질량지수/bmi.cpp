@@ -7,6 +7,6 @@ int main() {
     b = (10000*w)/(h*h);
     cout << fixed;
     cout.precision(0);
-    cout<<b;
+    cout<<b<<"\n";
     if(b>=25)cout<<"Obesity";
 }
