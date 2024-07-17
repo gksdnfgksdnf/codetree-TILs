@@ -4,5 +4,5 @@ using namespace std;
 int main() {
     int a,b,c,d;
     cin>>a>>b>>c>>d;
-    cout<<(a>c&&c>d?1:0);
+    cout<<(a>b?c>d?:1:0);
 }
