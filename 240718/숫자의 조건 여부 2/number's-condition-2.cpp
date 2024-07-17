@@ -7,5 +7,5 @@ int main() {
     if(a==5)
         cout<<"A";
     if(a%2==0)
-        cout<<<"B";
+        cout<<"B";
 }
