@@ -4,6 +4,5 @@ using namespace std;
 int main() {
     int a;
     cin>>a;
-    if(a==100)cout<<"pass";
-    else cout<<"failure";
+	cout<<(a==100?"pass":"failure");
 }
