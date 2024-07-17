@@ -5,9 +5,9 @@ int main() {
     int a;
     cin>>a;
     if(a%3)
-        cout<<"NO";
+        cout<<"NO\n";
     else
-        cout<<"YES";
+        cout<<"YES\n";
 
     if(a%5)
         cout<<"NO";
