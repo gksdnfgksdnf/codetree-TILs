@@ -1,8 +1,11 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
-    int a,b;
-    scanf("010-%d-%d", &a, &b);
-    printf("010-%d-%d", a,b);
+    string p,a,b;
+    cin >> p;
+    a = p.substr(4, 4);
+    b = p.substr(9, 4);
+    cout << "010-" << b << "-" << a;
 }
